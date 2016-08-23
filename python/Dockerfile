@@ -1,4 +1,3 @@
- (5 sloc)  115 Bytes
-FROM hub.c.163.com/nce2/python2.7
+FROM hub.c.163.com/nce2/python
 COPY ./ /srv/www
-CMD [" manage.py runserver"]
+CMD ["runserver" "manage.py"]
