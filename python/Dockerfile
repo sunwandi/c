@@ -1,3 +1,3 @@
-FROM hub.c.163.com/nce2/python
+FROM hub.c.163.com/nce2/python2.7
 COPY ./ /srv/www
 CMD ["runserver","manage.py"]
